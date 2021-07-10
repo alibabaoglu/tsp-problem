@@ -23,8 +23,8 @@ Wie schon erwähnt müssen Sie die neuste ASDF Version besitzen wenn Sie das Pro
 6. Wenn Sie die vorherigen Schritte erfolgreich durchgeführten haben dann können Sie das Programm im Terminal mit folgen Befehl ausführen: `clisp pfad/tsp.lisp`
 <br>
 
-**Achtung:**
-**Wenn beim Ausführen folgender Bug als Fehlermeldung erscheint:** <br>
+**Achtung, wenn beim Ausführen folgender Bug als Fehlermeldung erscheint:**
+ <br>
 *** - READ von
       #<INPUT BUFFERED FILE-STREAM CHARACTER #P"C:\\Users\\AliBa\\quicklisp\\dists\\quicklisp\\software\\inferior-shell-20160929-git\\utilities.lisp" @57>        
       : Ein Character mit Namen "cR" gibt es nicht.` <br>
