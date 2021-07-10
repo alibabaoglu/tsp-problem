@@ -24,7 +24,7 @@ Wie schon erwähnt müssen Sie die neuste ASDF Version besitzen wenn Sie das Pro
 <br>
 ## __ACHTUNG:__ 
 **Wenn beim Ausführen folgender Bug als Fehlermeldung erscheint:** <br>
-`*** - READ von
+*** - READ von
       #<INPUT BUFFERED FILE-STREAM CHARACTER #P"C:\\Users\\AliBa\\quicklisp\\dists\\quicklisp\\software\\inferior-shell-20160929-git\\utilities.lisp" @57>        
       : Ein Character mit Namen "cR" gibt es nicht.` <br>
  Dann navigieren Sie zum Pfad:` #P"C:\\Users\\AliBa\\quicklisp\\dists\\quicklisp\\software\\inferior-shell-20160929-git\\utilities.lisp"` und ersetzen Sie in Zeile 57 im Quellcode das "cr" mit einem "c"
