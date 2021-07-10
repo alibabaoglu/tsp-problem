@@ -22,7 +22,8 @@ Wie schon erwähnt müssen Sie die neuste ASDF Version besitzen wenn Sie das Pro
 5. Anschließend binden Sie in der Datei **gv_drawer.lisp** ihre setup.lisp Datei ein welche sich ebenfalls im Quicklisp Ordner befindet.<br> Durch den Befehl `(load "*your_path_to_quicklispfolder/setup.lisp")` binden Sie die Datei ein.
 6. Wenn Sie die vorherigen Schritte erfolgreich durchgeführten haben dann können Sie das Programm im Terminal mit folgen Befehl ausführen: `clisp pfad/tsp.lisp`
 <br>
-**ACHTUNG:** 
+
+**Achtung:**
 **Wenn beim Ausführen folgender Bug als Fehlermeldung erscheint:** <br>
 *** - READ von
       #<INPUT BUFFERED FILE-STREAM CHARACTER #P"C:\\Users\\AliBa\\quicklisp\\dists\\quicklisp\\software\\inferior-shell-20160929-git\\utilities.lisp" @57>        
