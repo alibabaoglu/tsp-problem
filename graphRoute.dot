@@ -1,0 +1,26 @@
+digraph g {
+
+
+A [shape=point,pos = "4,-4!"]
+B [shape =point,pos = "6,-4!"]
+C [shape=point,pos = "4,-3!"]
+D [shape =point,pos = "6,-3!"]
+A->B[label="NNH",color=red]
+C->D[label="OR",color=blue]
+
+Berlin[pos = "4,-4!"] 
+Hamburg[pos = "8,-4!"] 
+Düsseldorf[pos = "12,-4!"] 
+Köln[pos = "16,-4!"] 
+Frankfurt[pos = "20,0!"] 
+Stuttgart[pos = "16,0!"] 
+München[pos = "12,0!"] 
+Leipzig[pos = "8,0!"] 
+Berlin[pos = "4,0!"] 
+
+Berlin [shape=box,style=filled]
+Berlin->Leipzig->Frankfurt->Köln->Düsseldorf->Hamburg->Stuttgart->München->Berlin
+  [color=red]
+Berlin->Leipzig->München->Stuttgart->Frankfurt->Köln->Düsseldorf->Hamburg->Berlin
+ [color=blue]
+  }
